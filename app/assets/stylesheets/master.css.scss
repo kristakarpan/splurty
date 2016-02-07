@@ -6,16 +6,17 @@
 .circle {
     font-weight:bold;
     font-style: italic;
-    position: relative;
+    font-family: 'quicksandregular', sans-serif;
+    position: center;
     border-radius: 100%;
-    background: #f84342;
+    background: #05FFFF;
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
     text-align: center;
-    color: #FFF;
-    font-size: 10px;
+    color: black;
+    font-size: 17px;
     line-height: 16px;
     cursor: pointer;
     transform:rotate(11deg);
@@ -25,13 +26,18 @@
   font-style: italic;
   padding-top: 26px;
   text-align: center;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .links {
 	padding-top: 26px;
 	text-align: right;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .links a {
-	color: black;
+	color: #05FFFF;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-size: 25px;
 	border-bottom: 1px solid #dfdfdf;
 	font-family: 'quicksandregular', sans-serif;
@@ -47,24 +53,57 @@ h1 {
 	font-family: 'quicksandregular', sans-serif;
 	font-weight: bold;
 	font-size: 48px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 h2 {
 	font-family: 'quicksandlight_italic', sans-serif;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .next-quote {
-	color: #E34055;
+	color: #05FFFF;
 	font-family: 'quicksandregular', sans-serif;
 	font-size: 20px,
+}
+.next-quote:hover {
+	color: #69696B;
 }
 .footer-blurb {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
   text-align: right;
   font-size: 10px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .logo:hover {
 	text-decoration: none;
 }
 .about {
+	font-family: 'quicksandregular', sans-serif;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+}
+.about-link {
+	color: #05FFFF;
+}
+body {
+	background: url(road-dawn-mountains-sky.jpeg); 
+  	background-size: cover;
+}
+.btn-danger {
+	background: #05FFFF;
+	color: black;
+	font-family: 'quicksandregular', sans-serif;
+	border: black;
+}
+.btn-danger:hover {
+	background: #69696B;
+}
+.modal-header {
+	font-family: 'quicksandregular', sans-serif;
+}
+.modal-footer {
 	font-family: 'quicksandregular', sans-serif;
 }
